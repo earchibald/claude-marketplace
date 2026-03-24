@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   "plugins": [
     {
@@ -14,6 +14,13 @@
       "description": "Git law enforcement — commit quality, branch hygiene, merge safety",
       "category": "developer-tools",
       "tags": ["git", "enforcement", "hooks"]
+    },
+    {
+      "name": "cmux-skills-plugin",
+      "source": { "source": "url", "url": "https://github.com/earchibald/cmux-skills-plugin.git" },
+      "description": "cmux topology and browser/markdown skills, version-locked to your cmux installation",
+      "category": "developer-tools",
+      "tags": ["cmux", "terminal", "multiplexer", "skills"]
     }
   ]
 }
