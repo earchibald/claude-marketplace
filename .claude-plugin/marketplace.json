@@ -1,0 +1,19 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "earchibald"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tin-star",
+      "source": { "source": "github", "repo": "earchibald/tin-star" },
+      "description": "Git law enforcement — commit quality, branch hygiene, merge safety",
+      "category": "developer-tools",
+      "tags": ["git", "enforcement", "hooks"]
+    }
+  ]
+}
