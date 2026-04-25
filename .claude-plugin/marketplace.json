@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   "plugins": [
     {
@@ -21,6 +21,13 @@
       "description": "cmux topology and browser/markdown skills, version-locked to your cmux installation",
       "category": "developer-tools",
       "tags": ["cmux", "terminal", "multiplexer", "skills"]
+    },
+    {
+      "name": "statusline-plugin",
+      "source": { "source": "url", "url": "https://github.com/earchibald/statusline-plugin.git" },
+      "description": "Configure your Claude Code statusline from inside Claude — schema-driven, zero-dep, no external npx runtime",
+      "category": "developer-tools",
+      "tags": ["statusline", "configuration", "skill"]
     }
   ]
 }
