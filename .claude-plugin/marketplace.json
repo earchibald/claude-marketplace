@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace",
-    "version": "1.0.17"
+    "version": "1.0.18"
   },
   "plugins": [
     {
@@ -28,6 +28,13 @@
       "description": "Configure your Claude Code statusline from inside Claude — schema-driven, zero-dep, no external npx runtime",
       "category": "developer-tools",
       "tags": ["statusline", "configuration", "skill"]
+    },
+    {
+      "name": "interactive-reports",
+      "source": "./plugins/interactive-reports",
+      "description": "Durable interactive report server with browser+chat interaction — HTML form pages served by a long-lived local HTTP server while the agent polls for responses",
+      "category": "developer-tools",
+      "tags": ["reports", "interactive", "html", "forms", "browser", "skill"]
     }
   ]
 }

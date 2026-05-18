@@ -1,0 +1,18 @@
+{
+  "name": "interactive-reports",
+  "version": "2.4.0",
+  "description": "Durable interactive report server with browser+chat interaction — build HTML form pages served by a local HTTP server that stays alive for repeated submissions while the agent polls for the user's response.",
+  "author": {
+    "name": "earchibald"
+  },
+  "license": "MIT",
+  "keywords": [
+    "reports",
+    "interactive",
+    "html",
+    "forms",
+    "decision",
+    "browser",
+    "dual-channel"
+  ]
+}
