@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace",
-    "version": "1.0.18"
+    "version": "1.0.19"
   },
   "plugins": [
     {
@@ -35,6 +35,13 @@
       "description": "Durable interactive report server with browser+chat interaction — HTML form pages served by a long-lived local HTTP server while the agent polls for responses",
       "category": "developer-tools",
       "tags": ["reports", "interactive", "html", "forms", "browser", "skill"]
+    },
+    {
+      "name": "prose-lint",
+      "source": { "source": "url", "url": "https://github.com/earchibald/prose-lint.git" },
+      "description": "Marks machine-sounding sentences in Claude's writing and tells Claude to write them again in plain words. It checks chat replies, prose files, commit messages, and pull requests",
+      "category": "developer-tools",
+      "tags": ["writing", "style", "plain-english", "lint", "hooks", "skill"]
     }
   ]
 }
